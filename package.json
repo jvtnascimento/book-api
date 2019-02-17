@@ -1,0 +1,33 @@
+{
+  "name": "kotlin-book-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www --ignore '*spec.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvtnascimento/kotlin-book-api.git"
+  },
+  "author": "João Victor Nascimento Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvtnascimento/kotlin-book-api/issues"
+  },
+  "homepage": "https://github.com/jvtnascimento/kotlin-book-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.4.13",
+    "nodemon": "^1.18.10",
+    "npm": "^6.8.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
