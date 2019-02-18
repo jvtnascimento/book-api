@@ -108,6 +108,20 @@ var RouteMiddleware = {
         }
     },
 
+    validateIsbn: function(valuePath, options) {
+        return function(req, res, next) {
+            options = options || {};
+            var value = _.get(req, valuePath);
+
+            var isbn = value.toString().match(/^(97(8|9))?\d{9}(\d|X)$/g);
+            if (isbn && (isbn[0].length == 13)) {
+                next();
+            } else {
+                res.status(400).json({ message: options.message || "Informe os dados corretamente" });
+            }
+        }
+    },
+
     validateIfModelExists: function(modelPath, schema, options) {
         return async function(req, res, next) {
             try {
