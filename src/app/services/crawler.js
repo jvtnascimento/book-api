@@ -72,8 +72,7 @@ var BookService = {
 					title: title,
 				 	description: description,
 				 	isbn: "unavailable",
-				 	language: language,
-				 	url: bookUrl
+				 	language: language
 				};
 				
 				promises.push(getISBN(book, bookUrl));

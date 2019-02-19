@@ -1,0 +1,142 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-02-19T00:15:05.532Z",
+	"__export_source": "insomnia.desktop.app:v6.3.2",
+	"resources": [
+		{
+			"_id": "wrk_a337ac83816e43bb8bf20ce5b63c4977",
+			"created": 1534807842058,
+			"description": "",
+			"modified": 1534807842058,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_eab440dcb0e84c69b6c0553b8d922797",
+			"color": null,
+			"created": 1534807842339,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1534807842339,
+			"modified": 1534808113753,
+			"name": "New Environment",
+			"parentId": "wrk_a337ac83816e43bb8bf20ce5b63c4977",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_a333fe805a904c64a31ccbbc5a80c3e5",
+			"cookies": [],
+			"created": 1534807842347,
+			"modified": 1534807842347,
+			"name": "Default Jar",
+			"parentId": "wrk_a337ac83816e43bb8bf20ce5b63c4977",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_f3143e4e272840d9b6ab8d2fda2248d7",
+			"created": 1550344647425,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1550344647426,
+			"modified": 1550344647425,
+			"name": "Book",
+			"parentId": "wrk_a337ac83816e43bb8bf20ce5b63c4977",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_2ba23b902e40414484e1c46e3c4f8716",
+			"color": null,
+			"created": 1534808122361,
+			"data": {
+				"base_url": "http://localhost:3001",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViOGIwNjc0MTg2MmY2MTI4NDZkY2M2NiIsImlhdCI6MTUzNjM0NzI3OSwiZXhwIjoxNTM2NDMzNjc5fQ.E7gXG6iX91sMIY89K-o8RvUAhHPjd5cZVPsb9r80_U0"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1534808122361,
+			"modified": 1536371404408,
+			"name": "New Environment",
+			"parentId": "env_eab440dcb0e84c69b6c0553b8d922797",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_557c3406768443f4949402133c2efb81",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"title\": \"Book title example 3\",\n\t\"description\": \"Book description example\",\n\t\"isbn\": \"9781617293295\",\n\t\"language\": \"BR\"\n}\n"
+			},
+			"created": 1550344659514,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_edb5de3b04964cc6bee394de99a64544",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1550344659514,
+			"method": "POST",
+			"modified": 1550534514417,
+			"name": "Create",
+			"parameters": [],
+			"parentId": "fld_f3143e4e272840d9b6ab8d2fda2248d7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/v1/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_773b6f83b1634835b062740c25411830",
+			"authentication": {},
+			"body": {},
+			"created": 1550345157529,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1550345157529,
+			"method": "GET",
+			"modified": 1550448734164,
+			"name": "FindById",
+			"parameters": [],
+			"parentId": "fld_f3143e4e272840d9b6ab8d2fda2248d7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/v1/books/5c69f8560ae9961ff4543c23",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1d54da174643453c871c7b007b3ef712",
+			"authentication": {},
+			"body": {},
+			"created": 1550346561751,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1550345157579,
+			"method": "GET",
+			"modified": 1550534510264,
+			"name": "Find",
+			"parameters": [],
+			"parentId": "fld_f3143e4e272840d9b6ab8d2fda2248d7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/v1/books",
+			"_type": "request"
+		}
+	]
+}
