@@ -19,10 +19,10 @@ _Obs.: O projeto está configurado pra rodar na porta **3001** do **localhost**_
 
 ### Testes ###
 
-- Passo 1: Abra o Insomia e clique na seta para abrir o menu. (fica no header de fundo roxo, ao lado do nome do programa)
+- Passo 1: Abra o Insomnia e clique na seta para abrir o menu. (fica no header de fundo roxo, ao lado do nome do programa)
 - Passo 2: Escolha a opção _Import/Export_.
 - Passo 3: Na view que irá aparecer, Clique em _Import Data > From File_.
-- Passo 4: Vá até a raíz da pasta do projeto, entre na pasta **_insomia/_** e selecione o arquivo **_insomnia_workspace_** e clique no botão _Import_.
+- Passo 4: Vá até a raíz da pasta do projeto, entre na pasta **_insomnia/_** e selecione o arquivo **_insomnia_workspace_** e clique no botão _Import_.
 - Passo 5: Após isso você terá em mãos as 3 requests: **Find (GET)**, **FindById (GET)** e **Create (POST)**.
 
 #### POST /book (Create) - Refere-se ao primeiro item do desafio ####
