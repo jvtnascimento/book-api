@@ -17,7 +17,7 @@
 
 _Obs.: O projeto está configurado pra rodar na porta **3001** do **localhost**_
 
-### Testes ###
+## Testes ##
 
 - Passo 1: Abra o Insomnia e clique na seta para abrir o menu. (fica no header de fundo roxo, ao lado do nome do programa)
 - Passo 2: Escolha a opção _Import/Export_.
@@ -43,3 +43,11 @@ _Obs.: Copie o valor do campo "\_id" retornado, pois será necessário para o pr
 
 - Para executar basta apenas clicar em _'Send'_ que fica no canto superior direito, ao lado da url.
 - O resultado será retornado com a mesma estrutura especificada no desafio.
+
+
+
+## Referências ##
+
+- https://github.com/cheeriojs/cheerio
+- https://imasters.com.br/desenvolvimento/webscrapping-com-node-js
+- https://www.thepolyglotdeveloper.com/2018/05/scraping-paginated-lists-nodejs-cheerio-async-await-recursion/
