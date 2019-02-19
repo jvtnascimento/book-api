@@ -9,21 +9,21 @@
 
 ## Iniciar API ## 
 
-- Passo 1 - Faça o download do projeto e descompacte, caso tenha baixado como .zip.
-- Passo 2 - Abra o Prompt de Comando e entre na pasta do projeto.
-- Passo 3 - Execute o comando 'npm install' para instalar os pacotes necessários.
-- Passo 4 - Após o download dos pacotes, basta apenas executar o comando _'npm start'_.
-- Passo 5 - Quando aparecer a mensagem 'Express server listening on port 3001 in development mode', está pronto pra ser utilizado.
+- Passo 1: Faça o download do projeto e descompacte, caso tenha baixado como .zip.
+- Passo 2: Abra o Prompt de Comando e entre na pasta do projeto.
+- Passo 3: Execute o comando 'npm install' para instalar os pacotes necessários.
+- Passo 4: Após o download dos pacotes, basta apenas executar o comando _'npm start'_.
+- Passo 5: Quando aparecer a mensagem 'Express server listening on port 3001 in development mode', está pronto pra ser utilizado.
 
-Obs.: O projeto está configurado pra rodar na porta **3001** do **localhost**.
+_Obs.: O projeto está configurado pra rodar na porta **3001** do **localhost**_
 
 ### Testes ###
 
-- Passo 1 - Abra o Insomia e clique na seta para abrir o menu. (fica no header de fundo roxo, ao lado do nome do programa)
-- Passo 2 - Escolha a opção _Import/Export_.
-- Passo 3 - Na view que irá aparecer, Clique em _Import Data > From File_.
-- Passo 4 - Vá até a pasta do projeto, entre na pasta **insomia/** e selecione o arquivo **insomnia_workspace** e clique no botão _Import_.
-- Passo 5 - Após isso você terá em mãos as 3 requests: **Find (GET)**, **FindById (GET)** e **Create (POST)**.
+- Passo 1: Abra o Insomia e clique na seta para abrir o menu. (fica no header de fundo roxo, ao lado do nome do programa)
+- Passo 2: Escolha a opção _Import/Export_.
+- Passo 3: Na view que irá aparecer, Clique em _Import Data > From File_.
+- Passo 4: Vá até a pasta do projeto, entre na pasta **insomia/** e selecione o arquivo **insomnia_workspace** e clique no botão _Import_.
+- Passo 5: Após isso você terá em mãos as 3 requests: **Find (GET)**, **FindById (GET)** e **Create (POST)**.
 
 #### POST /book (Create) - Refere-se ao primeiro item do desafio ####
 
